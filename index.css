@@ -1,0 +1,28 @@
+body {
+	background-color:aliceblue;
+}
+
+.header {
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	font-size: 460;
+}
+
+.stream-title {
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+}
+
+.stream-desc {
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+}
+
+.stream {
+	align-content: center;
+}
+
+.footer {
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+}

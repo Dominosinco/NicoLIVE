@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nico Web</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+	
+	<script rel="text/stylesheet" src="index.js"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+</head>
+<body>
+		<noscript>Your browser does not support JavaScript. Use Mozzila FireFox, MS Edge, or Google Chrome</noscript>
+
+	<hr>
+		<div class="header">
+			<h1>Nico Web Alpha</h1>
+			<p>Nico's official web</p>
+		</div>
+	<hr>
+	<h1 class="stream-title">Stream</h1>
+	<p class="stream-desc">You must click OK to chat.</p>
+	<hr>
+	
+	<div id="stream"></div>
+	
+	<script type="text/javascript">
+      new Twitch.Embed("stream", {
+        width: 1910,
+        height: 606,
+        channel: "nicolas18092"
+      });
+    </script>
+	
+	<hr>
+	<div class="footer">
+		domdev.net. all rights reserved. Website was created by dominosinco.
+		Bebas Neue was the font used for the website. <a href="https://fonts.google.com/specimen/Bebas+Neue">https://fonts.google.com/specimen/Bebas+Neue</a>
+	</div>
+</body>
+</html>
