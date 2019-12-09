@@ -8,7 +8,7 @@
 } 
 
 body {
-    background-color:aliceblue;
+	background-color:aliceblue;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
